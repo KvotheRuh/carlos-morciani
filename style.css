@@ -368,4 +368,126 @@ nav ul li a:hover:after{
 }
 
 
+@media (max-width: 1024px){
 
+    .header-text h1{
+        font-size: 45px;
+    }
+
+    .sub-titulo{
+        font-size: 40px;
+    }
+
+    .qualificacoes-boxes{
+        flex-direction: column;
+    }
+
+    #sobre{
+        padding: 80px 40px;
+    }
+
+    .sobre-col-1,
+    .sobre-col-2{
+        flex-basis: 100%;
+    }
+
+    .sobre-col-1{
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (max-width: 768px){
+
+    nav{
+        padding: 15px 5%;
+    }
+
+    nav ul{
+        text-align: center;
+    }
+
+    nav ul li{
+        margin: 10px 10px;
+    }
+
+    nav ul li a{
+        font-size: 18px;
+    }
+
+    .header-text{
+        margin-top: 40%;
+        font-size: 20px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .header-text h1{
+        font-size: 35px;
+    }
+
+    #header{
+        height: 80vh;
+        background-position: center;
+        background-image: none; /* remove a logo no responsivo */
+    }
+
+    #sobre{
+        padding: 60px 20px;
+    }
+
+    .sub-titulo{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+
+    .lista-trabalhos{
+        grid-template-columns: 1fr;
+    }
+
+    #qualificacoes{
+        padding: 60px 20px;
+    }
+
+    .tools-container{
+        grid-template-columns: repeat(auto-fit, minmax(70px,1fr));
+    }
+
+    .contatos{
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .social-icons{
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 480px){
+
+    .header-text h1{
+        font-size: 28px;
+    }
+
+    .header-text{
+        font-size: 16px;
+    }
+
+    nav ul li a{
+        font-size: 16px;
+    }
+
+    .sub-titulo{
+        font-size: 26px;
+    }
+
+    .trabalho img{
+        height: 160px;
+    }
+
+}
