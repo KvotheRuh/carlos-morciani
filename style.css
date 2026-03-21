@@ -457,6 +457,13 @@ nav ul li a:hover:after{
         grid-template-columns: repeat(auto-fit, minmax(70px,1fr));
     }
 
+    .tools p{
+        font-size: 10px;
+        margin-top: 5px;
+        color: #aaa;
+        letter-spacing: 0.2px;
+    }
+
     .contatos{
         margin-left: 0;
         text-align: center;
